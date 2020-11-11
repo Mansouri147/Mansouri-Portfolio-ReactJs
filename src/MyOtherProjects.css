@@ -1,0 +1,238 @@
+.my_other_projects-page {
+  width: 100%;
+  height: 100%;
+  background-image: url("./static/images/my-other-projects/background/nasa-Q1p7bh3SHj8-unsplash.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center 80%;
+  border-bottom: rgba(0, 0, 0, 0.534) solid 3px;
+  position: relative;
+  overflow: hidden;
+}
+
+.my_other_projects-page .secondary-assets .asset1 {
+  width: 1100px;
+  margin-left: 1500px;
+  -webkit-transition: cubic-bezier(0, 0, 0, 0.79) 1s;
+  transition: cubic-bezier(0, 0, 0, 0.79) 1s;
+}
+
+.my_other_projects-page .secondary-assets .asset1 img {
+  width: 1100px;
+  height: 80px;
+}
+
+.my_other_projects-page .secondary-assets .asset1 span {
+  position: absolute;
+  top: 0;
+  color: whitesmoke;
+  font-size: 30px;
+  padding: 18px;
+  -webkit-transition: cubic-bezier(0, 0, 0, 0.79) 1s;
+  transition: cubic-bezier(0, 0, 0, 0.79) 1s;
+  left: 1500px;
+}
+
+.my_other_projects-page .secondary-assets .asset2 {
+  width: 150px;
+  position: absolute;
+  right: -1800px;
+  -webkit-transition: cubic-bezier(0, 0, 0, 0.79) 1s;
+  transition: cubic-bezier(0, 0, 0, 0.79) 1s;
+}
+
+.my_other_projects-page .secondary-assets .asset2 img {
+  width: 150px;
+  height: 80px;
+}
+
+.my_other_projects {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  background: rgba(0, 0, 0, 0.726);
+  margin-top: 200px;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  border-top: black solid 3px;
+  border-bottom: black solid 3px;
+  margin-bottom: 50px;
+}
+
+.my_other_projects .url p {
+  position: absolute;
+  left: 15%;
+  color: #ffff;
+}
+
+.photoshop {
+  border-right: 2px solid #ffff;
+  padding: 1% 1% 10% 1%;
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 0.25fr 1.75fr;
+      grid-template-rows: 0.25fr 1.75fr;
+}
+
+.photoshop .row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.photoshop .row h1 {
+  color: white;
+  margin: 20px 0;
+  border: 2px solid #ffff;
+  font-weight: 400;
+  font-size: 25px;
+  padding: 1% 230px;
+  -ms-grid-column: 2;
+  grid-column: 2;
+}
+
+.photoshop .column span {
+  position: absolute;
+  color: #ffff;
+  width: 50%;
+}
+
+.cycler1,
+.cycler2,
+.cycler3,
+.cycler4 {
+  position: relative;
+  width: 100%;
+}
+
+.cycler1 img,
+.cycler2 img,
+.cycler3 img,
+.cycler4 img {
+  width: 100%;
+  position: absolute;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 0;
+}
+
+.cycler1 img {
+  height: 349px;
+}
+
+.cycler2 img {
+  height: 177px;
+}
+
+.cycler3 img {
+  top: 177px;
+  height: 172px;
+}
+
+.cycler4 .cy4img2 {
+  top: 177px;
+}
+
+.cycler4 img#Img1 {
+  height: 349px;
+}
+
+.cycler4 img#Img2 {
+  height: 172px;
+}
+
+.cycler4 img#Img2:nth-child(3) {
+  height: 178px;
+}
+
+.photoshop .cycler3 span {
+  color: black;
+  top: 177px;
+}
+
+.cycler1 #Img1,
+.cycler2 #Img1,
+.cycler3 #Img1,
+.cycler4 #Img1 {
+  z-index: 7;
+}
+
+.cycler1 #Img2,
+.cycler2 #Img2,
+.cycler3 #Img2,
+.cycler4 #Img2 {
+  z-index: 6;
+}
+
+.cycler1 #Img3,
+.cycler2 #Img3,
+.cycler3 #Img3,
+.cycler4 #Img3 {
+  z-index: 5;
+}
+
+.cycler1 #Img4,
+.cycler2 #Img4,
+.cycler3 #Img4,
+.cycler4 #Img4 {
+  z-index: 4;
+}
+
+.cycler1 #Img5,
+.cycler2 #Img5,
+.cycler3 #Img5,
+.cycler4 #Img5 {
+  z-index: 3;
+}
+
+.cycler1 #Img6,
+.cycler2 #Img6,
+.cycler3 #Img6,
+.cycler4 #Img6 {
+  z-index: 2;
+}
+
+.cycler1 #Img7,
+.cycler2 #Img7,
+.cycler3 #Img7,
+.cycler4 #Img7 {
+  z-index: 1;
+}
+
+.illustrator {
+  text-align: center;
+}
+
+.illustrator .row h1 {
+  color: white;
+  margin: 20px 50px 0 50px;
+  border: 2px solid #ffff;
+  font-weight: 400;
+  font-size: 25px;
+  padding: 1% 75px;
+  text-align: center;
+}
+
+.illustrator .rowb {
+  margin-top: 15px;
+}
+
+.illustrator img {
+  height: 200px;
+  margin: 15px;
+}
+
+.my_other_projects .url p {
+  position: absolute;
+  left: 15%;
+  color: #ffff;
+  padding: 1em;
+}
+/*# sourceMappingURL=MyOtherProjects.css.map */

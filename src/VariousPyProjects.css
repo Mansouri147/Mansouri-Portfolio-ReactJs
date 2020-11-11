@@ -1,0 +1,152 @@
+.various_py_projects-page {
+  width: 100%;
+  height: 100%;
+  background-image: url("./static/images/Various-Py-Projects/background/nikita-kachanovsky-bLY5JqP_Ldw-unsplash.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center 80%;
+  border-bottom: rgba(0, 0, 0, 0.534) solid 3px;
+  position: relative;
+  overflow: hidden;
+}
+
+.various_py_projects-page .secondary-assets .asset1 {
+  width: 1100px;
+  margin-left: 1500px;
+  -webkit-transition: cubic-bezier(0, 0, 0, 0.79) 1s;
+  transition: cubic-bezier(0, 0, 0, 0.79) 1s;
+}
+
+.various_py_projects-page .secondary-assets .asset1 img {
+  width: 1100px;
+  height: 80px;
+}
+
+.various_py_projects-page .secondary-assets .asset1 span {
+  position: absolute;
+  top: 0;
+  color: whitesmoke;
+  font-size: 30px;
+  padding: 18px;
+  -webkit-transition: cubic-bezier(0, 0, 0, 0.79) 1s;
+  transition: cubic-bezier(0, 0, 0, 0.79) 1s;
+  left: 1500px;
+}
+
+.various_py_projects-page .secondary-assets .asset2 {
+  width: 150px;
+  position: absolute;
+  right: -1800px;
+  -webkit-transition: cubic-bezier(0, 0, 0, 0.79) 1s;
+  transition: cubic-bezier(0, 0, 0, 0.79) 1s;
+}
+
+.various_py_projects-page .secondary-assets .asset2 img {
+  width: 150px;
+  height: 80px;
+}
+
+.various_py_projects {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  background: rgba(0, 0, 0, 0.726);
+  margin-top: 200px;
+  height: 670px;
+  width: 100%;
+  text-align: center;
+  border-top: black solid 3px;
+  border-bottom: black solid 3px;
+  margin-bottom: 50px;
+}
+
+.various_py_projects .column {
+  border-right: 2px solid #ffff;
+  padding: 10% 5%;
+  position: relative;
+}
+
+.various_py_projects .column ul {
+  padding-left: 10px;
+  list-style-type: decimal;
+}
+
+.various_py_projects .column p,
+.various_py_projects .column li {
+  color: #ffff;
+}
+
+.various_py_projects .column img {
+  width: 30%;
+  margin-left: -15%;
+  position: absolute;
+  left: 50%;
+  bottom: 120px;
+}
+
+.various_py_projects .column .tic-tac-toe {
+  margin: 0 2%;
+}
+
+.various_py_projects .column .tic-tac-toe p {
+  margin-top: 30%;
+}
+
+.various_py_projects .column .tic-tac-toe a {
+  left: 15%;
+}
+
+.various_py_projects .column .weather-scraper {
+  margin: 0 2%;
+}
+
+.various_py_projects .column .weather-scraper img {
+  bottom: 100px;
+}
+
+.various_py_projects .column .process-workbook {
+  margin: 0 2%;
+}
+
+.various_py_projects .column .process-workbook p {
+  margin-top: 30%;
+}
+
+.various_py_projects .column .process-workbook a {
+  left: 6%;
+}
+
+.various_py_projects .column a {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  color: #ffff;
+  text-decoration: none;
+  padding: 1% 1%;
+  border: 1px solid #ffff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  position: absolute;
+  bottom: 40px;
+  left: 9%;
+}
+
+.various_py_projects .column a:hover {
+  font-family: "Roboto Mono", monospace;
+  background: white;
+  font-weight: bold;
+  color: black;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.various_py_projects h1 {
+  color: white;
+  margin: 20px 0;
+  border: 2px solid #ffff;
+  font-weight: 400;
+  font-size: 25px;
+  padding: 1% 5%;
+}
+/*# sourceMappingURL=VariousPyProjects.css.map */

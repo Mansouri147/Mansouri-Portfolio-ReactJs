@@ -1,0 +1,10 @@
+$projectName: portfolio_template;
+@import "Page.scss";
+
+.#{$projectName}-page {
+  background-image: url("./static/images/portfolio_template/background/anete-lusina-zwsHjakE_iI-unsplash.jpg");
+}
+
+.portfolio_template-images ul h1 {
+  padding: 0 10%;
+}

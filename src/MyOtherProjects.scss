@@ -1,0 +1,188 @@
+.my_other_projects-page {
+  width: 100%;
+  height: 100%;
+  background-image: url("./static/images/my-other-projects/background/nasa-Q1p7bh3SHj8-unsplash.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center 80%;
+  border-bottom: rgba(0, 0, 0, 0.534) solid 3px;
+  position: relative;
+  overflow: hidden;
+  .secondary-assets {
+    .asset1 {
+      width: 1100px;
+      margin-left: 1500px;
+      transition: cubic-bezier(0, 0, 0, 0.79) 1s;
+      img {
+        width: 1100px;
+        height: 80px;
+      }
+      span {
+        position: absolute;
+        top: 0;
+        color: whitesmoke;
+        font-size: 30px;
+        padding: 18px;
+        transition: cubic-bezier(0, 0, 0, 0.79) 1s;
+        left: 1500px;
+      }
+    }
+    .asset2 {
+      width: 150px;
+      position: absolute;
+      right: -1800px;
+      transition: cubic-bezier(0, 0, 0, 0.79) 1s;
+      img {
+        width: 150px;
+        height: 80px;
+      }
+    }
+  }
+}
+
+.my_other_projects {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background: rgba(0, 0, 0, 0.726);
+  margin-top: 200px;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  border-top: rgb(0, 0, 0) solid 3px;
+  border-bottom: rgb(0, 0, 0) solid 3px;
+  margin-bottom: 50px;
+  .url p {
+    position: absolute;
+    left: 15%;
+    color: #ffff;
+  }
+}
+
+.photoshop {
+  border-right: 2px solid #ffff;
+  padding: 1% 1% 10% 1%;
+  position: relative;
+  display: grid;
+  grid-template-rows: 0.25fr 1.75fr;
+  .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    h1 {
+      color: rgb(255, 255, 255);
+      margin: 20px 0;
+      border: 2px solid #ffff;
+      font-weight: 400;
+      font-size: 25px;
+      padding: 1% 230px;
+      grid-column: 2;
+    }
+  }
+  .column span {
+    position: absolute;
+    color: #ffff;
+    width: 50%;
+  }
+}
+
+.cycler1,
+.cycler2,
+.cycler3,
+.cycler4 {
+  position: relative;
+  width: 100%;
+  img {
+    width: 100%;
+    position: absolute;
+    transition: opacity 1s;
+    object-fit: cover;
+    left: 0;
+  }
+}
+
+.cycler1 img {
+  height: 349px;
+}
+
+.cycler2 img {
+  height: 177px;
+}
+
+.cycler3 img {
+  top: 177px;
+  height: 172px;
+}
+
+.cycler4 {
+  .cy4img2 {
+    top: 177px;
+  }
+  img#Img1 {
+    height: 349px;
+  }
+  img#Img2 {
+    height: 172px;
+    &:nth-child(3) {
+      height: 178px;
+    }
+  }
+}
+
+.photoshop .cycler3 span {
+  color: black;
+  top: 177px;
+}
+
+.cycler1,
+.cycler2,
+.cycler3,
+.cycler4 {
+  #Img1 {
+    z-index: 7;
+  }
+  #Img2 {
+    z-index: 6;
+  }
+  #Img3 {
+    z-index: 5;
+  }
+  #Img4 {
+    z-index: 4;
+  }
+  #Img5 {
+    z-index: 3;
+  }
+  #Img6 {
+    z-index: 2;
+  }
+  #Img7 {
+    z-index: 1;
+  }
+}
+
+.illustrator {
+  text-align: center;
+  .row h1 {
+    color: rgb(255, 255, 255);
+    margin: 20px 50px 0 50px;
+    border: 2px solid #ffff;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 1% 75px;
+    text-align: center;
+  }
+  .rowb {
+  margin-top: 15px;
+  }
+  img {
+    height: 200px;
+    margin: 15px;
+  }
+}
+
+.my_other_projects .url p {
+  position: absolute;
+  left: 15%;
+  color: #ffff;
+    padding: 1em;
+}

@@ -1,23 +1,55 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from "react";
+import "./App.css";
+import Intro from "./Intro";
+import Imobile from "./Imobile";
+import Business_list from "./Business_list";
+import Portfolio_template from "./Portfolio_template";
+import TodoListAppDj from "./TodoListAppDj";
+import MylilMarket from "./MylilMarket";
+import BlackJackRPS from "./BlackJackRPS";
+import InstagramClone from "./InstagramClone";
+import FBMessengerClone from "./FBMessengerClone";
+import NetflixClone from "./NetflixClone";
+import ResponsiveDesignPractice from "./ResponsiveDesignPractice";
+import HazelAi from "./HazelAi";
+import AmazonClone from "./AmazonClone";
+import TinderClone from "./TinderClone";
+import TikTokClone from "./TikTokClone";
+import YoutubeClone from "./YoutubeClone";
+import SpotifyClone from "./SpotifyClone";
+import VariousPyProjects from "./VariousPyProjects";
+import MyOtherProjects from "./MyOtherProjects";
+import Footer from "./Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Intro />
+      <Imobile />
+      <Business_list />
+      <Portfolio_template />
+      <TodoListAppDj />
+      <MylilMarket />
+      <BlackJackRPS />
+      <InstagramClone />
+      <FBMessengerClone />
+      <NetflixClone />
+      <ResponsiveDesignPractice />
+      <HazelAi />
+      <AmazonClone />
+      <TinderClone />
+      <TikTokClone />
+      <YoutubeClone />
+      <SpotifyClone />
+      <VariousPyProjects />
+      <MyOtherProjects />
+      <Footer />
     </div>
   );
 }

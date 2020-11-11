@@ -1,0 +1,47 @@
+.find_me_online {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #313135;
+  height: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.find_me_online a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 20px;
+}
+
+.find_me_online a:nth-child(1):hover, .find_me_online a:nth-child(2):hover, .find_me_online a:nth-child(4):hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  color: wheat;
+}
+
+.find_me_online img {
+  height: 30px;
+  padding: 10px;
+}
+
+.find_me_online p {
+  padding: 30px;
+}
+/*# sourceMappingURL=Footer.css.map */

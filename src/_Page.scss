@@ -1,0 +1,589 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;0,600;1,700&display=swap");
+
+.#{$projectName}-page {
+  width: 100%;
+  height: 100%;
+  background: rgb(241, 241, 241);
+  overflow: hidden;
+  position: relative;
+  padding: 1px 0 0 0;
+  border-bottom: rgba(0, 0, 0, 0.534) solid 3px;
+  background-image: url("./static/images/Imobile-shop/background/lamp-at-the-wall-hd-wallpaper-5120x2160.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center 30%;
+}
+
+.secondary-assets {
+  margin-top: 40px;
+  width: 100%;
+  float: left;
+  left: 0;
+  ul {
+    display: flex;
+    left: 0;
+    position: absolute;
+  }
+  .asset1 {
+    width: 1100px;
+    margin-left: 0;
+    // margin-left: 1500px;
+    transition: cubic-bezier(0, 0, 0, 0.79) 1s;
+    img {
+      width: 1100px;
+      height: 80px;
+    }
+    span {
+      position: absolute;
+      top: 0;
+      color: whitesmoke;
+      font-size: 30px;
+      padding: 18px;
+      transition: cubic-bezier(0, 0, 0, 0.79) 1s;
+      // left: 1500px;
+      left: 17px;
+    }
+  }
+  .asset2 {
+    width: 150px;
+    position: absolute;
+    // right: -1800px;
+    right: -120px;
+    transition: cubic-bezier(0, 0, 0, 0.79) 1s;
+    img {
+      width: 150px;
+      height: 80px;
+    }
+  }
+}
+
+.#{$projectName}-images {
+  margin-top: 200px;
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background: rgba(1, 252, 231, 0.144);
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-bottom: rgba(0, 0, 0, 0.534) solid 3px;
+    li {
+      width: 40%;
+      height: 400px;
+      margin: 30px 0;
+      position: relative;
+      img {
+        max-width: 100%;
+        max-height: 400px;
+        cursor: zoom-in;
+      }
+    }
+    h1 {
+      padding: 0 15%;
+      a {
+        color: #ffff;
+        font-size: 22px;
+        border: 2px solid #ffff;
+        padding: 1% 3%;
+        line-height: 70px;
+        text-decoration: none;
+        &:hover {
+          transition: 0.6s ease;
+          background: #ffff;
+          color: black;
+        }
+      }
+    }
+    .secondImage {
+      margin-top: 80px;
+    }
+    .thirdImage {
+      margin-top: -70px;
+      margin-bottom: 0;
+    }
+    .fourthImage {
+      margin-top: 80px;
+      height: 291px;
+    }
+  }
+  ##{$projectName}-flipper-key:hover {
+    transition: 0.6s ease;
+    overflow: hidden;
+  }
+}
+
+.#{$projectName}-skills {
+  padding: 20px 0 1% 0;
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+  }
+  th {
+    padding: 10px 5px;
+    margin-bottom: 20px;
+    color: #ffff;
+    font-weight: 400;
+    font-size: 30px;
+  }
+  tr {
+    display: flex;
+    justify-content: space-evenly;
+    td {
+      background: rgba(0, 0, 0, 0.253);
+      justify-items: center;
+      text-align: center;
+      align-content: center;
+      color: #ffff;
+      padding: 5px 30px;
+      border-collapse: collapse;
+    }
+    .descriptions {
+      padding: 20px 100px;
+    }
+  }
+}
+
+/* special = alone  */
+.imobile-skills tr td {
+  padding: 2px 5px;
+}
+
+.#{$projectName}-flipper-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+
+.#{$projectName}-flipper {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.788);
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: 2;
+  display: block;
+  overflow: auto;
+  .main-image {
+    float: right;
+    max-width: 80%;
+    margin-right: 2%;
+    margin-top: 100px;
+    margin-bottom: 2%;
+    transition: 0.3s ease;
+  }
+  #caption {
+    position: absolute;
+    float: right;
+    z-index: 4;
+    color: #ffff;
+    font-size: 30px;
+    width: 80%;
+    right: 2%;
+    text-align: center;
+  }
+}
+
+.#{$projectName}-flipper-images {
+  margin-top: 100px;
+  margin-left: 1%;
+  float: left;
+  display: contents;
+  img {
+    width: 10%;
+    border: #ffff solid 1px;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 5px;
+    opacity: 0.6;
+    transition: 0.6s ease;
+    &:hover,
+    &:focus,
+    &:active {
+      opacity: 1;
+      width: 12%;
+      transition: 0.6s ease;
+    }
+  }
+}
+
+.#{$projectName}-flipper-close-btn {
+  right: 0;
+  font-size: 50px;
+  color: #ffff;
+  margin: 1%;
+  position: absolute;
+  cursor: pointer;
+  z-index: 5;
+}
+
+// Responsive Design Practice
+.#{$projectName}-flipper8 .main-image,
+// Amazon Clone
+.#{$projectName}-flipper9 .main-image,
+// Youtube Clone
+.#{$projectName}-flipper12 .main-image,
+// Spotify Clone
+.#{$projectName}-flipper13 .main-image {
+  max-width: 78%;
+}
+
+/* page6 */
+.hazel_ai-front_end {
+  padding-top: 140px;
+}
+
+.hazel_ai-front_end ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.hazel_ai-front_end ul li {
+  color: rgb(7, 173, 228);
+  box-shadow: 0 0 20px 20px black;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.144);
+}
+
+.hazel_ai-front_end ul h1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.hazel_ai-front_end ul h1 a:hover {
+  color: teal;
+  font-size: 33px;
+  text-decoration: underline;
+  transition: 0.6s ease;
+}
+
+
+/* Other projects by me area */
+.page-2 {
+  width: 100%;
+  height: 100%;
+  background-image: url("./static/images/Various-Py-Projects/background/nikita-kachanovsky-bLY5JqP_Ldw-unsplash.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center 80%;
+  border-bottom: rgba(0, 0, 0, 0.534) solid 3px;
+  position: relative;
+  overflow: hidden;
+}
+
+.Various-Py-Projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background: rgba(0, 0, 0, 0.726);
+  margin-top: 200px;
+  height: 670px;
+  width: 100%;
+  text-align: center;
+  border-top: rgb(0, 0, 0) solid 3px;
+  border-bottom: rgb(0, 0, 0) solid 3px;
+  margin-bottom: 50px;
+}
+
+.Various-Py-Projects .column {
+  border-right: 2px solid #ffff;
+  padding: 10% 5%;
+  position: relative;
+}
+
+.Various-Py-Projects .column ul {
+  padding-left: 10px;
+  list-style-type: decimal;
+}
+
+.Various-Py-Projects .column p,
+.Various-Py-Projects .column li {
+  color: #ffff;
+}
+
+.Various-Py-Projects .column img {
+  width: 30%;
+  margin-left: -15%;
+  position: absolute;
+  left: 50%;
+  bottom: 120px;
+}
+
+.Various-Py-Projects .column .weather-scraper img {
+  bottom: 100px;
+}
+
+.tic-tac-toe,
+.process-workbook,
+.weather-scraper {
+  margin: 0 2%;
+}
+
+.tic-tac-toe p {
+  margin-top: 30%;
+}
+
+.process-workbook p {
+  margin-top: 30%;
+}
+
+.Various-Py-Projects h1 {
+  color: rgb(255, 255, 255);
+  margin: 20px 0;
+  border: 2px solid #ffff;
+  font-weight: 400;
+  font-size: 25px;
+  padding: 1% 5%;
+}
+
+.Various-Py-Projects .column a {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  color: #ffff;
+  text-decoration: none;
+  padding: 1% 1%;
+  border: 1px solid #ffff;
+  transition: 0.3s;
+  position: absolute;
+  bottom: 40px;
+  left: 9%;
+}
+
+.Various-Py-Projects .column .tic-tac-toe a {
+  left: 15%;
+}
+
+.Various-Py-Projects .column .process-workbook a {
+  left: 6%;
+}
+
+.Various-Py-Projects .column a:hover {
+  font-family: "Roboto Mono", monospace;
+  background: white;
+  font-weight: bold;
+  color: black;
+  transition: 0.3s;
+}
+
+.page-1 {
+  width: 100%;
+  height: 100%;
+  background-image: url("./static/images/my-other-projects/background/nasa-Q1p7bh3SHj8-unsplash.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center 80%;
+  border-bottom: rgba(0, 0, 0, 0.534) solid 3px;
+  position: relative;
+  overflow: hidden;
+}
+
+.my-other-projects {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background: rgba(0, 0, 0, 0.726);
+  margin-top: 200px;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  border-top: rgb(0, 0, 0) solid 3px;
+  border-bottom: rgb(0, 0, 0) solid 3px;
+  margin-bottom: 50px;
+}
+
+.photoshop {
+  border-right: 2px solid #ffff;
+  padding: 1% 1% 10% 1%;
+  position: relative;
+  display: grid;
+  grid-template-rows: 0.25fr 1.75fr;
+}
+
+.photoshop .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.photoshop .row h1 {
+  color: rgb(255, 255, 255);
+  margin: 20px 0;
+  border: 2px solid #ffff;
+  font-weight: 400;
+  font-size: 25px;
+  padding: 1% 230px;
+  grid-column: 2;
+}
+
+.cycler1,
+.cycler2,
+.cycler3,
+.cycler4 {
+  position: relative;
+  width: 100%;
+}
+
+.cycler1 img,
+.cycler2 img,
+.cycler3 img,
+.cycler4 img {
+  width: 100%;
+  position: absolute;
+  transition: opacity 1s;
+  object-fit: cover;
+  left: 0;
+}
+
+.cycler1 img {
+  height: 349px;
+}
+
+.cycler2 img {
+  height: 177px;
+}
+
+.cycler3 img {
+  top: 177px;
+  height: 172px;
+}
+
+.cycler4 .cy4img2 {
+  top: 177px;
+}
+
+.cycler4 img#a1 {
+  height: 349px;
+}
+
+.cycler4 img#a2 {
+  height: 172px;
+}
+
+.cycler4 img#a2:nth-child(3) {
+  height: 178px;
+}
+
+.photoshop .column span {
+  position: absolute;
+  color: #ffff;
+  width: 50%;
+}
+
+.photoshop .cycler3 span {
+  color: black;
+  top: 177px;
+}
+
+.cycler1 #a1,
+.cycler2 #a1,
+.cycler3 #a1,
+.cycler4 #a1 {
+  z-index: 7;
+}
+
+.cycler1 #a2,
+.cycler2 #a2,
+.cycler3 #a2,
+.cycler4 #a2 {
+  z-index: 6;
+}
+
+.cycler1 #a3,
+.cycler2 #a3,
+.cycler3 #a3 {
+  z-index: 5;
+}
+
+.cycler1 #a4,
+.cycler2 #a4,
+.cycler3 #a4 {
+  z-index: 4;
+}
+
+.cycler1 #a5,
+.cycler2 #a5 {
+  z-index: 3;
+}
+
+.cycler2 #a6 {
+  z-index: 2;
+}
+
+.cycler2 #a7 {
+  z-index: 1;
+}
+
+.illustrator {
+  text-align: center;
+}
+
+.illustrator .row h1 {
+  color: rgb(255, 255, 255);
+  margin: 20px 50px 0 50px;
+  border: 2px solid #ffff;
+  font-weight: 400;
+  font-size: 25px;
+  padding: 1% 75px;
+  text-align: center;
+}
+
+.illustrator .rowb {
+  margin-top: 15px;
+}
+
+.illustrator img {
+  height: 200px;
+  margin: 15px;
+}
+
+.my-other-projects .url p {
+  position: absolute;
+  left: 15%;
+  color: #ffff;
+}
+
+footer .find_me_online {
+  display: flex;
+  background: #313135;
+  height: 100px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+footer .find_me_online a {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}
+
+footer .find_me_online a:nth-child(1):hover,
+footer .find_me_online a:nth-child(4):hover,
+footer .find_me_online a:nth-child(2):hover {
+  transform: scale(1.2);
+  color: wheat;
+}
+
+footer .find_me_online img {
+  height: 30px;
+  padding: 10px;
+}
+
+footer .find_me_online a {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+footer .find_me_online p {
+  padding: 30px;
+}
