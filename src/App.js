@@ -31,21 +31,21 @@ function App() {
   return (
     <div className="app">
       <Intro />
+      <YoutubeClone />
+      <AmazonClone />
       <Imobile />
+      <TikTokClone />
+      <NetflixClone />
+      <InstagramClone />
       <Business_list />
       <Portfolio_template />
+      <ResponsiveDesignPractice />
       <TodoListAppDj />
       <MylilMarket />
-      <BlackJackRPS />
-      <InstagramClone />
-      <FBMessengerClone />
-      <NetflixClone />
-      <ResponsiveDesignPractice />
       <HazelAi />
-      <AmazonClone />
+      <FBMessengerClone />
+      <BlackJackRPS />
       <TinderClone />
-      <TikTokClone />
-      <YoutubeClone />
       <SpotifyClone />
       <VariousPyProjects />
       <MyOtherProjects />

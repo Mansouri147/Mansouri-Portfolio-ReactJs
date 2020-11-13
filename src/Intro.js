@@ -71,15 +71,9 @@ function Intro() {
       <div className="page2">
         <div className="first-assets">
           <ul data-aos="fade-right" data-aos-duration="1000">
-            <li className="asset1">
-              <img src={asset1} alt="" />
-            </li>
-            <li className="asset2">
-              <img src={asset2} alt="" />
-            </li>
-            <li className="asset3">
-              <img src={asset3} alt="" />
-            </li>
+            <li className="asset1"><img src={asset1} alt="" /></li>
+            <li className="asset2"><img src={asset2} alt="" /></li>
+            <li className="asset3"><img src={asset3} alt="" /></li>
           </ul>
         </div>
         <h1 className="projects-title">

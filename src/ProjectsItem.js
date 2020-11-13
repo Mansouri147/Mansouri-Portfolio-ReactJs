@@ -18,7 +18,7 @@ function ProjectsItem(props) {
          {/* <ul>
           {props.projects.map((project) =>
             project.projectInfos.map((projectInfo) => 
-              <li>{projectInfo.name}</li>))}
+            projectInfo.map((name) => <li>{name.name}</li>)))}
         </ul> */}
       </div>
     </li>
