@@ -1,0 +1,32 @@
+$projectName: business_list;
+@import "Page.scss";
+
+.#{$projectName}-page {
+  background-image: url("../../static/images/business_list/background/norbert-unsplash.jpg");
+}
+
+.business_list-page .secondary-assets {
+  margin-top: 60px;
+}
+
+.business_list-images {
+  ul {
+    padding-bottom: 80px;
+  }
+  .thirdImage {
+    margin-top: -120px;
+    width: 500px;
+    img {
+      width: 400px;
+    }
+  }
+  .fourthImage {
+    margin-top: -50px;
+  }
+}
+
+.business_list-skills {
+  tr {
+    margin-top: 10px;
+  }
+}

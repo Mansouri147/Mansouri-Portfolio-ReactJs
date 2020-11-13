@@ -1,0 +1,96 @@
+.various_py_projects-page {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../static/images/Various-Py-Projects/background/nikita-kachanovsky-bLY5JqP_Ldw-unsplash.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center 80%;
+  border-bottom: rgba(0, 0, 0, 0.534) solid 3px;
+  position: relative;
+  overflow: hidden;
+}
+
+.various_py_projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background: rgba(0, 0, 0, 0.726);
+  margin-top: 200px;
+  height: 670px;
+  width: 100%;
+  text-align: center;
+  border-top: rgb(0, 0, 0) solid 3px;
+  border-bottom: rgb(0, 0, 0) solid 3px;
+  margin-bottom: 50px;
+  .column {
+    border-right: 2px solid #ffff;
+    padding: 10% 5%;
+    position: relative;
+    ul {
+      padding-left: 10px;
+      list-style-type: decimal;
+    }
+    p,
+    li {
+      color: #ffff;
+    }
+    img {
+      width: 30%;
+      margin-left: -15%;
+      position: absolute;
+      left: 50%;
+      bottom: 120px;
+    }
+    .tic-tac-toe {
+      margin: 0 2%;
+      p {
+        margin-top: 30%;
+      }
+      a {
+        left: 15%;
+      }
+    }
+    .weather-scraper {
+      margin: 0 2%;
+      img {
+        bottom: 100px;
+      }
+    }
+    .process-workbook {
+      margin: 0 2%;
+      p {
+        margin-top: 30%;
+      }
+      a {
+        left: 6%;
+      }
+    }
+    a {
+      font-family: "Roboto Mono", monospace;
+      font-weight: 400;
+      color: #ffff;
+      text-decoration: none;
+      padding: 1% 1%;
+      border: 1px solid #ffff;
+      transition: 0.3s;
+      position: absolute;
+      bottom: 40px;
+      left: 9%;
+      &:hover {
+        font-family: "Roboto Mono", monospace;
+        background: white;
+        font-weight: bold;
+        color: black;
+        transition: 0.3s;
+      }
+    }
+  }
+  h1 {
+    color: rgb(255, 255, 255);
+    margin: 20px 0;
+    border: 2px solid #ffff;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 1% 5%;
+  }
+}

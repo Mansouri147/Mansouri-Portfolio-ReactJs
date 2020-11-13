@@ -1,0 +1,19 @@
+$projectName: imobile;
+@import "Page";
+
+.#{$projectName}-page {
+  background-image: url("../../static/images/Imobile-shop/background/lamp-at-the-wall-hd-wallpaper-5120x2160.jpg");
+}
+
+.imobile-images {
+  .fourthImage {
+    margin-top: 80px;
+    height: 291px;
+  }
+}
+
+.imobile-skills {
+  tr td {
+    padding: 2px 5px;
+  }
+}
