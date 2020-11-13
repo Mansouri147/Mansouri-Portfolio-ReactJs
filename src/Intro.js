@@ -20,39 +20,37 @@ import dataScienceBg from "./static/images/projects_titles_backgrounds/data_scie
 import ProjectsItem from "./ProjectsItem";
 
 function Intro() {
-  const [frontEndProjects, setFrontEndProjects] = useState([{
-    projectInfos: [{ name: "Imobile Shop", href: ".imobile-page" }],
-    projectInfos: [{ name: "Portfolio template", href: ".portfolio_template-page" }],
-    projectInfos: [{ name: "Responsive Design Practice", href: ".responsive_design-page" }],
-  }]);
+  const [frontEndProjects, setFrontEndProjects] = useState([
+    { name: "Imobile Shop", href: "" },
+    { name: "Portfolio template", href: "" },
+    { name: "Responsive Design Practice", href: "" },
+  ]);
 
-  const [machineLearningProjects, setMachineLearningProjects] = useState([{ projectInfos: [{ name: "Hazel AI", href: ".hazel_ai-page" }] }]);
+  const [machineLearningProjects, setMachineLearningProjects] = useState([{ name: "Hazel AI", href: "" }]);
 
-  const [backEndProjects, setBackEndProjects] = useState([{
-    projectInfos: [{ name: "My Little Market", href: ".my_little_market-page" }],
-    projectInfos: [{ name: "Todo List app", href: ".todo_list-page" }],
-  }]);
+  const [backEndProjects, setBackEndProjects] = useState([
+    { name: "My Little Market", href: "" },
+    { name: "Todo List app", href: "" },
+  ]);
 
-  const [webScrapingProjects, setWebScrapingProjects] = useState([{
-    projectInfos: [{ name: "Business list", href: ".business_list-page" }],
-    projectInfos: [{ name: "Weather Scraper", href: ".various_py_projects-page" }],
-    projectInfos: [{ name: "Amazon Price Tracker (done deployement soon)", href: "" }],
-  }]);
+  const [webScrapingProjects, setWebScrapingProjects] = useState([
+    { name: "Business list", href: "" },
+    { name: "Weather Scraper", href: "" },
+    { name: "Amazon Price Tracker (done deployement soon)", href: "" },
+  ]);
 
-  const [javaScriptProjects, setJavaScriptProjects] = useState([{
-    projectInfos: [{ name: "Javascript: Blackjack - Rock Paper Scissors", href: ".blackjack_rps_js-page" }],
-    projectInfos: [{ name: "Instagram clone ReactJs", href: ".instagram_clone-page" }],
-    projectInfos: [{ name: "Facebook Messenger clone ReactJs", href: ".fb_messenger_clone-page" }],
-    projectInfos: [{ name: "Netflix clone ReactJs", href: ".netflix_clone-page" }],
-    projectInfos: [{ name: "Amazon clone ReactJs", href: ".amazon_clone-page" }],
-    projectInfos: [{ name: "Tinder clone ReactJs ( Under Dev )", href: ".tinder_clone-page" }],
-    projectInfos: [{ name: "Youtube clone ReactJs (LIVE DEMO soon)", href: ".youtube_clone-page" }],
-    projectInfos: [{ name: "Spotify clone ReactJs (LIVE DEMO soon)", href: ".spotify_clone-page" }],
-  }]);
+  const [javaScriptProjects, setJavaScriptProjects] = useState([
+    { name: "Javascript: Blackjack - Rock Paper Scissors", href: "" },
+    { name: "Instagram clone ReactJs", href: "" },
+    { name: "Facebook Messenger clone ReactJs", href: "" },
+    { name: "Netflix clone ReactJs", href: "" },
+    { name: "Amazon clone ReactJs", href: "" },
+    { name: "Tinder clone ReactJs ( Under Dev )", href: "" },
+    { name: "Youtube clone ReactJs (LIVE DEMO soon)", href: "" },
+    { name: "Spotify clone ReactJs (LIVE DEMO soon)", href: "" },
+  ]);
 
-  const [dataScienceProjects, setDataScienceProjects] = useState([{
-    projectInfos: [{ name: "Process workbook-Edting Excel files", href: ".various_py_projects-page" }],
-  }]);
+  const [dataScienceProjects, setDataScienceProjects] = useState([{ name: "Process workbook-Edting Excel files", href: "" }]);
 
   return (
     <div>
@@ -71,9 +69,15 @@ function Intro() {
       <div className="page2">
         <div className="first-assets">
           <ul data-aos="fade-right" data-aos-duration="1000">
-            <li className="asset1"><img src={asset1} alt="" /></li>
-            <li className="asset2"><img src={asset2} alt="" /></li>
-            <li className="asset3"><img src={asset3} alt="" /></li>
+            <li className="asset1">
+              <img src={asset1} alt="" />
+            </li>
+            <li className="asset2">
+              <img src={asset2} alt="" />
+            </li>
+            <li className="asset3">
+              <img src={asset3} alt="" />
+            </li>
           </ul>
         </div>
         <h1 className="projects-title">
@@ -81,17 +85,18 @@ function Intro() {
         </h1>
         <div className="projects">
           <ul className="projects-list">
-            <ProjectsItem background={frontEndBg} logo={frontEndLogo} projectsItemTitle="Front-End" projects={frontEndProjects} />
+            <ProjectsItem background={frontEndBg} logo={frontEndLogo} projectsItemTitle="Front-End"  projects={frontEndProjects} />
             <ProjectsItem
+              
               background={SophiaAiBg}
               logo={machineLearningLogo}
               projectsItemTitle="Machine Learning"
               projects={machineLearningProjects}
             />
-            <ProjectsItem background={djangoBg} logo={djangoLogo} projectsItemTitle="Back-End" projects={backEndProjects} />
-            <ProjectsItem background={webScrapingBg} logo={webScrapingLogo} projectsItemTitle="web-scraping" projects={webScrapingProjects} fadeOut />
+            <ProjectsItem background={djangoBg} logo={djangoLogo}  projectsItemTitle="Back-End" projects={backEndProjects} />
+            <ProjectsItem background={webScrapingBg} logo={webScrapingLogo}  projectsItemTitle="web-scraping" projects={webScrapingProjects} fadeOut />
             <ProjectsItem background={JavaScriptBg} logo={javaScriptLogo} projectsItemTitle="JavaScript" projects={javaScriptProjects} fadeOut />
-            <ProjectsItem background={dataScienceBg} logo={dataScienceLogo} projectsItemTitle="Data-science" projects={dataScienceProjects} />
+            <ProjectsItem background={dataScienceBg} logo={dataScienceLogo}  projectsItemTitle="Data-science" projects={dataScienceProjects} />
 
             {/* <li>Tic Tac Toe py-logo</li> */}
           </ul>

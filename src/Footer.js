@@ -9,7 +9,8 @@ function Footer() {
     <div className="find_me_online">
       <a href="https://www.linkedin.com/in/mansouri147" target="_blank" ><img src={LinkedInLogo} alt="" />/mansouri147</a>
       <a href="https://mansouri-portfolio.herokuapp.com/"><img src={LinksLogo} alt="" />Old same Portfolio made with django</a>
-      <a><img src={LinksLogo} alt="" />mansouriwhafidoumansouri@gmail.com</a>
+      <a><img src={LinksLogo} alt="" />mansouriwhafidoumansouri<br />@gmail.com</a>
+      <a href="https://stackoverflow.com/users/13021632/mansouriala" target="_blank" ><img src={LinksLogo} alt="" />Stack Overflow</a>
       <a href="https://github.com/Mansouri147" target="_blank" ><img src={GitHubLogo} alt="" />/mansouri147</a>
       <p>created by Mansouri available on github</p>
     </div>

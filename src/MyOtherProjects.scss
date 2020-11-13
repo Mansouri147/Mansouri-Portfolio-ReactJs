@@ -9,36 +9,6 @@
   border-bottom: rgba(0, 0, 0, 0.534) solid 3px;
   position: relative;
   overflow: hidden;
-  .secondary-assets {
-    .asset1 {
-      width: 1100px;
-      margin-left: 1500px;
-      transition: cubic-bezier(0, 0, 0, 0.79) 1s;
-      img {
-        width: 1100px;
-        height: 80px;
-      }
-      span {
-        position: absolute;
-        top: 0;
-        color: whitesmoke;
-        font-size: 30px;
-        padding: 18px;
-        transition: cubic-bezier(0, 0, 0, 0.79) 1s;
-        left: 1500px;
-      }
-    }
-    .asset2 {
-      width: 150px;
-      position: absolute;
-      right: -1800px;
-      transition: cubic-bezier(0, 0, 0, 0.79) 1s;
-      img {
-        width: 150px;
-        height: 80px;
-      }
-    }
-  }
 }
 
 .my_other_projects {

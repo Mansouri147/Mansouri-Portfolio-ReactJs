@@ -14,7 +14,7 @@ function VariousPyProjects() {
             <div className="various_py_projects-page">
 
                 <div className="secondary-assets">
-                    <ul>
+                    <ul data-aos="fade-left"  data-aos-duration="1000">
                         <li className="asset1"><img src={asset1} alt="" /><span>Other various Python projects</span></li>
                         <li className="asset2"><img src={asset2} alt="" /></li>
                     </ul>
