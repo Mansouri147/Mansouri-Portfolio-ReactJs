@@ -4,7 +4,6 @@ import PTemplateImg1 from "../../static/images/portfolio_template/On_hover_home_
 import PTemplateImg2 from "../../static/images/portfolio_template/Portfolio_About_page.png";
 import PTemplateImg3 from "../../static/images/portfolio_template/Portfolio_whole_template.png";
 import PTemplateImg4 from "../../static/images/portfolio_template/About_page.png";
-import PTemplateImg4 from "../../static/images/portfolio_template/";
 
 function Portfolio_template() {
     // This name will be used in production like css and javascript

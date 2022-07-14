@@ -1,0 +1,48 @@
+[
+  {
+    "projectName": "youtube_clone",
+    "title": "Youtube Clone",
+    "secondTitle": "Youtube Clone ReactJs two pages included built by React Router feature",
+    "liveDemoUrl": "https://you-tube-clonee.web.app",
+    "githubRepoUrl": "",
+    "imagesMetaData": {
+      "path": "@images/youtube_clone",
+      "labels": ["Home Page"],
+      "carouselLabels": ["Responsive Design"]
+    },
+    "skillsTable": [
+      "JavaScript",
+      "React Router",
+      "Firebase (hosting, database)",
+      "Context API ( LIKE REDUX )",
+      "Material UI",
+      "CSS Hacks",
+      "Web Design",
+      "3rd Party: UseStateValue and UseEffect hooks"
+    ],
+    "projectDescriptions": "Youtube Clone homepage and Search page with React Router components"
+  },
+  {
+    "projectName": "amazon_clone",
+    "title": "Amazon Clone",
+    "secondTitle": "Amazon Clone ReactJs three pages included built with React Router feature",
+    "liveDemoUrl": "https://ama-zon-clonee.web.app/",
+    "githubRepoUrl": "https://github.com/Mansouri147/Amazon-Clone",
+    "imagesMetaData": {
+      "path": "@images/amazon_images",
+      "labels": ["Home Page", "Checkout Page"],
+      "carouselLabels": ["Responsive Design", "Zoom-In"]
+    },
+    "skillsTable": [
+      "JavaScript",
+      "React Router",
+      "Firebase (hosting, database)",
+      "Context API ( LIKE REDUX )",
+      "Material UI",
+      "CSS Hacks",
+      "Web Design",
+      "3rd Party: UseStateValue and UseEffect hooks"
+    ],
+    "projectDescriptions": "Amazon Clone homepage checkout and login page with React Router components also with the add/remove from basket features"
+  }
+]

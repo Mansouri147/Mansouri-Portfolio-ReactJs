@@ -1,0 +1,240 @@
+[
+  {
+    "projectName": "youtube_clone",
+    "title": "Youtube Clone",
+    "secondTitle": "Youtube Clone ReactJs two pages included built by React Router feature",
+    "liveDemoUrl": "https://you-tube-clonee.web.app",
+    "githubRepoUrl": "",
+    "imagesMetaData": {
+      "path": "@images/youtube_clone",
+      "labels": ["Home Page"],
+      "carouselLabels": ["Responsive Design"]
+    },
+    "skillsTable": [
+      "JavaScript",
+      "React Router",
+      "Firebase (hosting, database)",
+      "Context API ( LIKE REDUX )",
+      "Material UI",
+      "CSS Hacks",
+      "Web Design",
+      "3rd Party: UseStateValue and UseEffect hooks"
+    ],
+    "projectDescriptions": "Youtube Clone homepage and Search page with React Router components"
+  },
+  {
+    "projectName": "amazon_clone",
+    "title": "Amazon Clone",
+    "secondTitle": "Amazon Clone ReactJs three pages included built with React Router feature",
+    "liveDemoUrl": "https://ama-zon-clonee.web.app/",
+    "githubRepoUrl": "https://github.com/Mansouri147/Amazon-Clone",
+    "imagesMetaData": {
+      "path": "@images/amazon_images",
+      "labels": ["Home Page", "Checkout Page"],
+      "carouselLabels": ["Responsive Design", "Zoom-In"]
+    },
+    "skillsTable": [
+      "JavaScript",
+      "React Router",
+      "Firebase (hosting, database)",
+      "Context API ( LIKE REDUX )",
+      "Material UI",
+      "CSS Hacks",
+      "Web Design",
+      "3rd Party: UseStateValue and UseEffect hooks"
+    ],
+    "projectDescriptions": "Amazon Clone homepage checkout and login page with React Router components also with the add/remove from basket features"
+  },
+  {
+    "projectName": "imobile",
+    "title": "Imobile Shop HTML CSS JavaScript",
+    "secondTitle": "A professional responsive E-commerce website Template",
+    "liveDemoUrl": "https://imobile-shop.herokuapp.com/index.html",
+    "imagesMetaData": {
+      "path": "@images/Imobile-shop",
+      "labels": ["Home Page", "Product page", "Sign up page", "Sign in page"],
+      "carouselLabels": ["Home page", "Product page", "Sign up page", "Sign in page", "Whole Product page", "Whole main page"]
+    },
+    "skillsTable": [
+      "Web Design",
+      "Web Application",
+      "Website Development",
+      "Flexbox",
+      "eCommerce Website",
+      "Responsive Design",
+      "Website Optimization",
+      "Adobe Photoshop",
+      "JavaScript"
+    ],
+    "projectDescriptions": "A professional responsive E-commerce website Template containing all pages needed from main page and product page all the way to sign up and sign in pages with a modern unique design."
+  },
+  {
+    "projectName": "tiktok_clone",
+    "title": "TikTok Clone",
+    "secondTitle": "TikTok Clone ReactJs Material-ui and Firebase ( Under Development )",
+    "liveDemoUrl": "https://tik-tok-clon-e.web.app/",
+    "githubRepoUrl": "https://github.com/Mansouri147/Tik_Tok-Clone",
+    "imagesMetaData": {
+      "path": "@images/Imobile-shop",
+      "labels": ["Home Page"],
+      "carouselLabels": ["Home page"]
+    },
+    "skillsTable": [
+      "JavaScript",
+      "React Router",
+      "Video Player",
+      "Firebase (hosting, database)",
+      "Material UI",
+      "CSS hacks ( Flexbox, <br>Snap functionality)",
+      "Web Design",
+      "3rd Party: UseStateValue and UseEffect hooks",
+      "React Ticker lib"
+    ],
+    "projectDescriptions": "Tik Tok Clone built with ReactJs and Firebase"
+  },
+  {
+    "projectName": "netflix_clone",
+    "title": "Netflix clone ReactJs",
+    "secondTitle": "Netflix clone, click any Poster from netflix originals to watch the trailer. With React as Front-End and google firebase one of the easiest and most proficient Back-End",
+    "liveDemoUrl": "https://netflix-clone-11686.web.app/",
+    "githubRepoUrl": "https://github.com/Mansouri147/Netflix-Clone",
+    "imagesMetaData": {
+      "path": "@images/Imobile-shop",
+      "labels": ["Netflix Main Banner", "Movie trailers"],
+      "carouselLabels": ["Admin Main Page", "Admin Products Page"]
+    },
+    "skillsTable": [
+      "ReactJs",
+      "Firebase (hosting, database)",
+      "Cloud Functions",
+      "Flexbox",
+      "React-youtube lib",
+      "movie-trailer lib",
+      "3rd Party: UseState and UseEffect hooks"
+    ],
+    "projectDescriptions": "Netflix clone you can click any Poster from the netflix originals to watch any trailer you want with React as Front-End and google firebase one of the easiest and most proficient Back-End"
+  },
+  {
+    "projectName": "instagram_clone",
+    "title": "Instagram clone ReactJs",
+    "secondTitle": "Instagram clone ReactJs with google firebase for Database, authentification and hosting...",
+    "liveDemoUrl": "https://instagram-clone-react-js.web.app/",
+    "githubRepoUrl": "https://github.com/Mansouri147/Instagram-clone-ReactJs",
+    "imagesMetaData": {
+      "path": "@images/instagram-clone",
+      "labels": ["Home page", "Instagram comments functionality", "Uploading pics functionality"],
+      "carouselLabels": ["Home page", "Instagram comments functionality", "Uploading pics functionality"]
+    },
+    "skillsTable": [
+      "ReactJs",
+      "Real Time db with Firebase",
+      "Firebase (hosting, database, auth)",
+      "Material UI",
+      "Cloud Functions",
+      "3rd Party: UseState and UseEffect hooks",
+      "Uploading Pictures and comments functionnality"
+    ],
+    "projectDescriptions": "Instagram clone with React as Front-End and google firebase one of the easiest and most proficient Back-End"
+  },
+  {
+    "projectName": "business_list",
+    "title": "Craigslist app clone: Bussiness list",
+    "secondTitle": "A fast Craigslist web scraper with a beautiful GUI",
+    "liveDemoUrl": "https://business-list.herokuapp.com/",
+    "githubRepoUrl": "https://github.com/Mansouri147/business-list/",
+    "imagesMetaData": {
+      "path": "@images/business_list",
+      "labels": ["Main Page", "Fast craigslist web scraper", "Filter your searches", "A much sexier front-end to craigslist"],
+      "carouselLabels": ["Main Page", "Fast craigslist web scraper", "Filter your searches", "A much sexier front-end to craigslist"]
+    },
+    "skillsTable": ["Databases", "Heroku", "MaterializeCss", "Beautifulsoup4", "web scraping"],
+    "projectDescriptions": "This is a Craigslist app clone. We used in this project some Python skills and the end result instead of something looking not very pretty... it's instead A much sexier Front-end."
+  },
+  {
+    "projectName": "portfolio_template",
+    "title": "Portfolio Template",
+    "secondTitle": "professional portfolio website (HTML, CSS, JavaScript)",
+    "liveDemoUrl": "https://portfolio-website-template.herokuapp.com/index.html",
+    "githubRepoUrl": "https://github.com/Mansouri147/Portfolio",
+    "imagesMetaData": {
+      "path": "@images/portfolio_template",
+      "labels": ["Main Page", "About page", "Neat 'n tidy css Grid design", "About page sized 100%"],
+      "carouselLabels": ["Main Page", "About page", "Neat 'n tidy css Grid design", "About page sized 100%"]
+    },
+    "skillsTable": [
+      "JavaScript",
+      "HTML5",
+      "CSS3 Hacks: Grid, Flexbox, animations",
+      "Adobe Photoshop",
+      "Website Development",
+      "Web Design",
+      "CSS Grid",
+      "Heroku"
+    ],
+    "projectDescriptions": "I just build up a fully professional Portfolio website template that you can find all planning steps or we can call it the bone of any project in github readme.md"
+  },
+  {
+    "projectName": "todo_list",
+    "title": "Todo List app Django",
+    "secondTitle": "A simple Todo_List App built with Django and bootstrap.",
+    "liveDemoUrl": "https://todo-list-django.herokuapp.com/",
+    "githubRepoUrl": "https://github.com/Mansouri147/Todo_List-app-Django",
+    "imagesMetaData": {
+      "path": "@images/todo_list_django",
+      "labels": ["Main Page"],
+      "carouselLabels": ["Main Page"]
+    },
+    "skillsTable": ["Django", "Bootstrap", "Databases", "Django model", "Django ORM", "Heroku"],
+    "projectDescriptions": "In this App the main goal was to focus on how to start a project how to plan for it and on interacting programmatically with the database using our model (ORM) in Django"
+  },
+  {
+    "projectName": "my_little_market",
+    "title": "Portfolio Template 'Sundays ONLY'",
+    "secondTitle": "Django Back-End administrative part E-commerce template My little Market for preview see the link below",
+    "liveDemoUrl": "https://carrefour-express.herokuapp.com/",
+    "githubRepoUrl": "https://github.com/Mansouri147/My_little_Market_Sundays_ONLY",
+    "imagesMetaData": {
+      "path": "@images/my_little_market",
+      "labels": ["Admin Main Page", "Admin Products Page", "Front-End"],
+      "carouselLabels": ["Admin Main Page", "Admin Products Page", "Front-End"]
+    },
+    "skillsTable": ["PipEnv", "eCommerce", "Django", "Flexbox", "SQLite", "Databases", "Web Design"],
+    "projectDescriptions": "In this App the main goal was to focus on how to start a project how to plan for it and on interacting programmatically with the database using our model (ORM) in Django"
+  },
+  {
+    "projectName": "blackjack_rps_js",
+    "title": "BlackJack Game, Rock Paper Scissors... and more 'n more practice JavaScript",
+    "secondTitle": "This project has 71% of bare JavaScript code and only 21% HTML, CSS8% according to GitHub",
+    "liveDemoUrl": "https://javascript-crashcourse.herokuapp.com",
+    "githubRepoUrl": "https://github.com/Mansouri147/BlackJack-Game-Rock-Paper-Scissors...-and-some-messing-arround-with-JavaScript",
+    "imagesMetaData": {
+      "path": "@images/blackjack_rps_js",
+      "labels": ["Full BlackJack Game logic with JS", "JavaScript Fundamentals", "All you need to start having results with javascript code"],
+      "carouselLabels": ["Admin Main Page", "Admin Products Page", "Front-End"]
+    },
+    "skillsTable": ["JavaScript", "Bootstrap", "Adobe Photoshop", "Flexbox"],
+    "projectDescriptions": "Brought to you by CleverProgrammer all big respects. thanks to Rafeh qazy, Aaron and all big team in CleverProgrammer"
+  },
+  {
+    "projectName": "fb_messenger_clone",
+    "title": "Facebook Messenger clone ReactJs",
+    "secondTitle": "Facebook Messenger clone ReactJs with google firebase for Database, and hosting...",
+    "liveDemoUrl": "https://facebook-messenger-clone-f17b7.web.app/",
+    "githubRepoUrl": "https://github.com/Mansouri147/Facebook-Messenger-Clone",
+    "imagesMetaData": {
+      "path": "@images/messenger-clone",
+      "labels": ["Chat page"],
+      "carouselLabels": ["Chat page"]
+    },
+    "skillsTable": [
+      "ReactJs",
+      "Real Time database with Firebase",
+      "Firebase (hosting, auth)",
+      "Material UI",
+      "Cloud Functions",
+      "3rd Party: UseState and UseEffect hooks",
+      "messaging functionnality"
+    ],
+    "projectDescriptions": "Facebook Messenger clone one page app with ReactJS as Front-End and google firebase one of the easiest and most proficient Back-End"
+  }
+]

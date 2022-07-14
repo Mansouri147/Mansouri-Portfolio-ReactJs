@@ -1,17 +1,10 @@
 {
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended"
-  ],
-  "plugins": [
-    "react"
-  ],
+  "extends": ["react", "prettier", "eslint:recommended", "plugin:react/recommended"],
+  "plugins": ["react"],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
     }
   },
-  "rules": {
-    
-  }
+  "rules": {}
 }

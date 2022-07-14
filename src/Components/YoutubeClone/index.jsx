@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Page from "../Page";
 import YoutubeCImg1 from "../../static/images/youtube_clone/youtube_clone.jpg";
-import AmazonCImg2 from "../../static/images/amazon_images/amazon-checkout-page.jpg";
 
 function YoutubeClone() {
     // This name will be used in production like css and javascript
