@@ -7,7 +7,7 @@ function TinderClone() {
   const [projectName, setProjectName] = useState("tinder_clone");
 
   const [title, setTitle] = useState("Tinder Clone");
-  const [secondTitle, setSecondTitle] = useState("Tinder Clone ReactJs Chat app for dating ( Under Development )");
+  const [subtitle1, setSubtitle1] = useState("Tinder Clone ReactJs Chat app for dating ( Under Development )");
 
   const [liveDemoUrl, setLiveDemoUrl] = useState("https://tinder-clone-63b29.web.app/");
   const [githubRepoUrl, setGithubRepoUrl] = useState("https://github.com/Mansouri147/Tinder-Clone");
@@ -40,7 +40,7 @@ function TinderClone() {
         key={projectName}
         projectName={projectName}
         title={title}
-        secondTitle={secondTitle}
+        subtitle1={subtitle1}
         liveDemoUrl={liveDemoUrl}
         githubRepoUrl={githubRepoUrl}
         flipper_key1={flipper_key1}

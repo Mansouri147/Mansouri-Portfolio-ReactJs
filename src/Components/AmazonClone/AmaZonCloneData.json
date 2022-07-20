@@ -2,7 +2,7 @@
   {
     "projectName": "youtube_clone",
     "title": "Youtube Clone",
-    "secondTitle": "Youtube Clone ReactJs two pages included built by React Router feature",
+    "subtitle1": "Youtube Clone ReactJs two pages included built by React Router feature",
     "liveDemoUrl": "https://you-tube-clonee.web.app",
     "githubRepoUrl": "",
     "imagesMetaData": {
@@ -25,7 +25,7 @@
   {
     "projectName": "amazon_clone",
     "title": "Amazon Clone",
-    "secondTitle": "Amazon Clone ReactJs three pages included built with React Router feature",
+    "subtitle1": "Amazon Clone ReactJs three pages included built with React Router feature",
     "liveDemoUrl": "https://ama-zon-clonee.web.app/",
     "githubRepoUrl": "https://github.com/Mansouri147/Amazon-Clone",
     "imagesMetaData": {

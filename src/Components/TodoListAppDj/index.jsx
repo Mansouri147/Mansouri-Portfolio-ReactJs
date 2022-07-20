@@ -7,7 +7,7 @@ function TodoListAppDj() {
   const [projectName, setProjectName] = useState("todo_list");
 
   const [title, setTitle] = useState("Todo List app Django");
-  const [secondTitle, setSecondTitle] = useState("A simple Todo_List App built with Django and bootstrap.");
+  const [subtitle1, setSubtitle1] = useState("A simple Todo_List App built with Django and bootstrap.");
 
   const [liveDemoUrl, setLiveDemoUrl] = useState("https://todo-list-django.herokuapp.com/");
   const [githubRepoUrl, setGithubRepoUrl] = useState("https://github.com/Mansouri147/Todo_List-app-Django");
@@ -38,7 +38,7 @@ function TodoListAppDj() {
         key={projectName}
         projectName={projectName}
         title={title}
-        secondTitle={secondTitle}
+        subtitle1={subtitle1}
         liveDemoUrl={liveDemoUrl}
         githubRepoUrl={githubRepoUrl}
         flipper_key1={flipper_key1}

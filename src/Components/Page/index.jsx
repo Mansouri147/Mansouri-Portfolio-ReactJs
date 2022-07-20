@@ -14,6 +14,7 @@ import "../TinderClone/TinderClone.scss";
 import "../TikTokClone/TikTokClone.scss";
 import "../YoutubeClone/YoutubeClone.scss";
 import "../SpotifyClone/SpotifyClone.scss";
+import "../HazelAi/HazelAi.scss";
 import asset1 from "../../static/images/illustrator_pics/Asset 11@4x.png";
 import asset2 from "../../static/images/illustrator_pics/Asset 12@4x.png";
 import { importAll } from "../../helpers";
@@ -22,10 +23,11 @@ function Page({ project }) {
   const {
     projectName,
     title,
-    secondTitle,
+    subtitle1,
+    subtitle2,
     liveDemoUrl,
     githubRepoUrl,
-    cleverProgUrl,
+    credits,
     projectDescriptions,
     skillsTable,
     skillsTable2,
@@ -53,8 +55,10 @@ function Page({ project }) {
       <div className={`${projectName}-images`}>
         <ul>
           <h1>
-            {secondTitle}
+            {subtitle1}
             <br />
+              <span>{subtitle2}</span>
+              <br />
             {liveDemoUrl ? (
               <a href={liveDemoUrl} target="_blank">
                 LIVE DEMO
@@ -86,7 +90,7 @@ function Page({ project }) {
         <table>
           <tbody>
             <tr>
-              <th>{projectName} Tech Stack</th>
+              <th>{title} Tech Stack</th>
             </tr>
             <tr className="skills">
               {skillsTable.map((skill) => (
@@ -112,8 +116,8 @@ function Page({ project }) {
             </tr>
             <tr className="skills">
               <td className="descriptions">
-                {cleverProgUrl ? (
-                  <a href="https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ" target="_blank">
+                {credits ? (
+                  <a href={credits[0]} target="_blank">
                     {projectDescriptions}
                   </a>
                 ) : (

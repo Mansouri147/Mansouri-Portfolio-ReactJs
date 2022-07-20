@@ -10,7 +10,7 @@ function Portfolio_template() {
   const [projectName, setProjectName] = useState("portfolio_template");
 
   const [title, setTitle] = useState("Portfolio Template");
-  const [secondTitle, setSecondTitle] = useState("professional portfolio website (HTML, CSS, JavaScript)");
+  const [subtitle1, setSubtitle1] = useState("professional portfolio website (HTML, CSS, JavaScript)");
 
   const [liveDemoUrl, setLiveDemoUrl] = useState("https://portfolio-website-template.herokuapp.com/index.html");
   const [githubRepoUrl, setGithubRepoUrl] = useState("https://github.com/Mansouri147/Portfolio");
@@ -55,7 +55,7 @@ useState(    "I just build up a fully professional Portfolio website template th
         key={projectName}
         projectName={projectName}
         title={title}
-        secondTitle={secondTitle}
+        subtitle1={subtitle1}
         liveDemoUrl={liveDemoUrl}
         githubRepoUrl={githubRepoUrl}
         flipper_key1={flipper_key1}

@@ -8,7 +8,7 @@ function NetflixClone() {
   const [projectName, setProjectName] = useState("netflix_clone");
 
   const [title, setTitle] = useState("Netflix clone ReactJs");
-  const [secondTitle, setSecondTitle] = useState(
+  const [subtitle1, setSubtitle1] = useState(
     "Netflix clone, click any Poster from netflix originals to watch the trailer. With React as Front-End and google firebase one of the easiest and most proficient Back-End"
   );
 
@@ -47,7 +47,7 @@ function NetflixClone() {
         key={projectName}
         projectName={projectName}
         title={title}
-        secondTitle={secondTitle}
+        subtitle1={subtitle1}
         liveDemoUrl={liveDemoUrl}
         githubRepoUrl={githubRepoUrl}
         flipper_key1={flipper_key1}

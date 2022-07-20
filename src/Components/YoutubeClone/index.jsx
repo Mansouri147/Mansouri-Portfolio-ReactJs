@@ -7,7 +7,7 @@ function YoutubeClone() {
   const [projectName, setProjectName] = useState("youtube_clone");
 
   const [title, setTitle] = useState("Youtube Clone");
-  const [secondTitle, setSecondTitle] = useState("Youtube Clone ReactJs two pages included built by React Router feature");
+  const [subtitle1, setSubtitle1] = useState("Youtube Clone ReactJs two pages included built by React Router feature");
 
   const [liveDemoUrl, setLiveDemoUrl] = useState("https://you-tube-clonee.web.app");
   const [githubRepoUrl, setGithubRepoUrl] = useState("");
@@ -44,7 +44,7 @@ useState(    "Youtube Clone homepage and Search page with React Router component
         key={projectName}
         projectName={projectName}
         title={title}
-        secondTitle={secondTitle}
+        subtitle1={subtitle1}
         flipper_key1={flipper_key1}
         liveDemoUrl={liveDemoUrl}
         // flipper_key2={flipper_key2}

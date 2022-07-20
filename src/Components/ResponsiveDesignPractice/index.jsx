@@ -8,7 +8,7 @@ function ResponsiveDesignPractice() {
   const [projectName, setProjectName] = useState("responsive_design");
 
   const [title, setTitle] = useState("Introducing Responsive Design");
-  const [secondTitle, setSecondTitle] = useState("Responsive Design Practice");
+  const [subtitle1, setSubtitle1] = useState("Responsive Design Practice");
 
   const [liveDemoUrl, setLiveDemoUrl] = useState("");
   const [githubRepoUrl, setGithubRepoUrl] = useState("");
@@ -43,7 +43,7 @@ function ResponsiveDesignPractice() {
         key={projectName}
         projectName={projectName}
         title={title}
-        secondTitle={secondTitle}
+        subtitle1={subtitle1}
         flipper_key1={flipper_key1}
         flipper_key2={flipper_key2}
         flipper_key1Alt={flipper_key1Alt}

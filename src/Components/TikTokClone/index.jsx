@@ -7,7 +7,7 @@ function TikTokClone() {
   const [projectName, setProjectName] = useState("tiktok_clone");
 
   const [title, setTitle] = useState("TikTok Clone");
-  const [secondTitle, setSecondTitle] = useState("TikTok Clone ReactJs Material-ui and Firebase ( Under Development )");
+  const [subtitle1, setSubtitle1] = useState("TikTok Clone ReactJs Material-ui and Firebase ( Under Development )");
 
   const [liveDemoUrl, setLiveDemoUrl] = useState("https://tik-tok-clon-e.web.app/");
   const [githubRepoUrl, setGithubRepoUrl] = useState("https://github.com/Mansouri147/Tik_Tok-Clone");
@@ -40,7 +40,7 @@ function TikTokClone() {
         key={projectName}
         projectName={projectName}
         title={title}
-        secondTitle={secondTitle}
+        subtitle1={subtitle1}
         liveDemoUrl={liveDemoUrl}
         githubRepoUrl={githubRepoUrl}
         flipper_key1={flipper_key1}

@@ -7,7 +7,7 @@ function SpotifyClone() {
   const [projectName, setProjectName] = useState("spotify_clone");
 
   const [title, setTitle] = useState("Spotify Clone");
-  const [secondTitle, setSecondTitle] = useState("Spotify Clone ReactJs built with React Router feature");
+  const [subtitle1, setSubtitle1] = useState("Spotify Clone ReactJs built with React Router feature");
 
   const [liveDemoUrl, setLiveDemoUrl] = useState("");
   const [githubRepoUrl, setGithubRepoUrl] = useState("");
@@ -44,7 +44,7 @@ function SpotifyClone() {
         key={projectName}
         projectName={projectName}
         title={title}
-        secondTitle={secondTitle}
+        subtitle1={subtitle1}
         flipper_key1={flipper_key1}
         flipper_key1Alt={flipper_key1Alt}
         flipper_image1={flipper_image1}

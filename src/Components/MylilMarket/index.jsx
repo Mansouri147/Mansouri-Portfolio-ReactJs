@@ -9,7 +9,7 @@ function MylilMarket() {
   const [projectName, setProjectName] = useState("my_little_market");
 
   const [title, setTitle] = useState("Portfolio Template 'Sundays ONLY'");
-  const [secondTitle, setSecondTitle] = useState("Django Back-End administrative part E-commerce template My little Market for preview see the link below");
+  const [subtitle1, setSubtitle1] = useState("Django Back-End administrative part E-commerce template My little Market for preview see the link below");
 
   const [liveDemoUrl, setLiveDemoUrl] = useState("https://carrefour-express.herokuapp.com/");
   const [githubRepoUrl, setGithubRepoUrl] = useState("https://github.com/Mansouri147/My_little_Market_Sundays_ONLY");
@@ -49,7 +49,7 @@ function MylilMarket() {
         key={projectName}
         projectName={projectName}
         title={title}
-        secondTitle={secondTitle}
+        subtitle1={subtitle1}
         liveDemoUrl={liveDemoUrl}
         githubRepoUrl={githubRepoUrl}
         flipper_key1={flipper_key1}

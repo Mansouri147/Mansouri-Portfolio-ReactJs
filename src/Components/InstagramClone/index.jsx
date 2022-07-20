@@ -9,7 +9,7 @@ function InstagramClone() {
   const [projectName, setProjectName] = useState("instagram_clone");
 
   const [title, setTitle] = useState("Instagram clone ReactJs");
-  const [secondTitle, setsecondTitle] = useState("Instagram clone ReactJs with google firebase for Database, authentification and hosting...");
+  const [subtitle1, setsecondTitle] = useState("Instagram clone ReactJs with google firebase for Database, authentification and hosting...");
 
   const [liveDemoUrl, setLiveDemoUrl] = useState("https://instagram-clone-react-js.web.app/");
   const [githubRepoUrl, setGithubRepoUrl] = useState("https://github.com/Mansouri147/Instagram-clone-ReactJs");
@@ -48,7 +48,7 @@ function InstagramClone() {
         key={projectName}
         projectName={projectName}
         title={title}
-        secondTitle={secondTitle}
+        subtitle1={subtitle1}
         liveDemoUrl={liveDemoUrl}
         githubRepoUrl={githubRepoUrl}
         flipper_key1={flipper_key1}

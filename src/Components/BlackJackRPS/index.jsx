@@ -9,7 +9,7 @@ function BlackJackRPS() {
   const [projectName, setProjectNameconst] = useState("blackjack_rps_js");
 
   const [title, setTitle] = useState("BlackJack Game, Rock Paper Scissors... and more 'n more practice JavaScript");
-  const [secondTitle, setSecondTitle] = useState("This project has 71% of bare JavaScript code and only 21% HTML, CSS8% according to GitHub");
+  const [subtitle1, setSubtitle1] = useState("This project has 71% of bare JavaScript code and only 21% HTML, CSS8% according to GitHub");
 
   const [liveDemoUrl, setLiveDemoUrl] = useState("https://javascript-crashcourse.herokuapp.com");
   const [githubRepoUrl, setGithubRepoUrl] = useState("https://github.com/Mansouri147/BlackJack-Game-Rock-Paper-Scissors...-and-some-messing-arround-with-JavaScript");
@@ -40,7 +40,7 @@ function BlackJackRPS() {
         key={projectName}
         projectName={projectName}
         title={title}
-        secondTitle={secondTitle}
+        subtitle1={subtitle1}
         liveDemoUrl={liveDemoUrl}
         githubRepoUrl={githubRepoUrl}
         flipper_key1={flipper_key1}

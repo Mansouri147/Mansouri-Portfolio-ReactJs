@@ -12,7 +12,7 @@ function Imobile() {
   const [projectName, setProjectName] = useState("imobile");
 
   const [title, setTitle] = useState("Imobile Shop HTML CSS JavaScript");
-  const [secondTitle, setSecondTitle] = useState("A professional responsive E-commerce website Template");
+  const [subtitle1, setSubtitle1] = useState("A professional responsive E-commerce website Template");
 
   const [liveDemoUrl, setLiveDemoUrl] = useState("https://imobile-shop.herokuapp.com/index.html");
 
@@ -62,7 +62,7 @@ function Imobile() {
         key={projectName}
         projectName={projectName}
         title={title}
-        secondTitle={secondTitle}
+        subtitle1={subtitle1}
         liveDemoUrl={liveDemoUrl}
         flipper_key1={flipper_key1}
         flipper_key2={flipper_key2}

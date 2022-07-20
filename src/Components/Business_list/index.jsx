@@ -9,7 +9,7 @@ function Business_list() {
   const [projectName, setProjectName] = useState("business_list");
 
   const [title, setTitle] = useState("Craigslist app clone: Bussiness list");
-  const [secondTitle, setSecondTitle] = useState("A fast Craigslist web scraper with a beautiful GUI");
+  const [subtitle1, setSubtitle1] = useState("A fast Craigslist web scraper with a beautiful GUI");
   const [liveDemoUrl, setLiveDemoUrl] = useState("https://business-list.herokuapp.com/");
   const [githubRepoUrl, setGithubRepoUrl] = useState("https://github.com/Mansouri147/business-list/");
 
@@ -64,7 +64,7 @@ function Business_list() {
         key={projectName}
         projectName={projectName}
         title={title}
-        secondTitle={secondTitle}
+        subtitle1={subtitle1}
         liveDemoUrl={liveDemoUrl}
         githubRepoUrl={githubRepoUrl}
         flipper_key1={flipper_key1}
